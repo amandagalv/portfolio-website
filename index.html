@@ -1,94 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Amanda Galvao | UX/UI Designer</title>
-  </head>
-  <body>
-     <header>
-       <div>
-         <img src="img/Logo.png" alt="Amanda Galvao">
-         <nav>
-           <ul>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Amanda Galvao | UX/UI Designer</title>
+  <!-- RESPONSIVE SCALING -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT IMPORT -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300&display=swap');
+  </style>
+</head>
+
+<body {font-family: 'Lato' , sans-serif;}>
+  <header>
+    <div>
+      <img src="img/Logo.png" alt="Amanda Galvao">
+      <nav>
+        <ul>
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </div>
-	</header>
-  <main>
-    <div> <!-- HERO SECTION -->
-      <div>
-        <h1>Hi, I’m Amanda. <span> I’m a UX Designer with a background in Architecture. </span></h1>
-          <p>Passionate about design, I create intuitive and well-crafted experiences, whether indoors or digitally. </p>
-        </div>
-      </div>
-      <div><!-- Work/Projects -->
-      <div>
-        <h2>My Work</h2>
-          <div><!-- PROJECT 1 SECTION -->
-            <div><!-- LEFT COLUMN (IMAGE) -->
-              <picture>
-    <source srcset="img/pluto/cover-black@1.png" media="(max-width:767px)">
-    <img src="img/pluto/cover-black@2.png" alt="Pluto">
-  </picture>
-</div>
-</div>
-<div><!-- RIGHT COLUMN (TEXT AND BUTTON) -->
-              <h3>Pluto</h3>
-              <p>An independently developed for a (mobile-first) responsive app for investing in a social environment.
-              </p>
-              <li><a href="pluto.html">View Project</a></li>
-            </div>
-          </div>
-          <div><!-- PROJECT 2 SECTION -->
-            <div><!-- LEFT COLUMN (IMAGE) -->
-              <picture>
-    <source srcset="img/foodhood/foodhood-cover@1.png" media="(max-width:767px)">
-    <img src="img/foodhood/foodhood-cover@2.png" alt="Pluto">
-  </picture>
-</div>
-</div>
-<div><!-- RIGHT COLUMN (TEXT AND BUTTON) -->
-              <h3>Foodhood</h3>
-              <p>A website and mobile platform for an online supermarket focused on people with busy schedules. Developed as part of a 2-week design challenge.
-              </p>
-              <a href="#">View Project</a>
-            </div>
-          </div>
-          <div><!-- PROJECT 3 SECTION -->
-            <div><!-- LEFT COLUMN (IMAGE) -->
-              <picture>
-                <source srcset="img/vocapp/vocapp-cover@1.png" media="(max-width:767px)">
-                  <img src="img/vocapp/vocapp-cover@2.png" alt="Vocapp">
-</picture>
-</div>
-</div>
-<div><!-- RIGHT COLUMN (TEXT AND BUTTON) -->
-              <h3>Vocapp</h3>
-              <p>An conceptual vocabulary app with a hint of pop-art.
-              </p>
-              <a href="#">View Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-</main>
+  </header>
 
-<footer>
-      <div><!-- FOOTER TEXT AND BUTTON -->
-        <h2>Get in touch</h2>
-        <p>I would love to discuss my work and how I could help your team! Please contact me at
-          <a href="a.galvao@outlook.com">a.galvao@outlook.com</a> or give me a call on  <a href="tel:+447480784872">(44) 7480784872</a>.
-      <div><!-- SOCIAL LINKS -->
-         <a href="www.linkedin.com/in/amanda-galvao-de-oliveira" target="_blank">
-           <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a"><stop offset="0" stop-color="#517fa6"/><stop offset="1" stop-color="#426699"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="8.9756" x2="577.923" xlink:href="#a" y1="-78.99" y2="557.6892"/><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-20.1191" x2="548.8283" xlink:href="#a" y1="-52.9904" y2="583.6888"/><path d="m271.06 214.363v-.525c-.1.17-.247.36-.347.525z" fill="url(#b)"/><path d="m256 7.098c-137.465 0-248.902 111.437-248.902 248.902s111.437 248.902 248.902 248.902 248.902-111.437 248.902-248.902-111.437-248.902-248.902-248.902zm-68.545 345.704h-53.822v-161.912h53.822zm-26.901-184.008h-.363c-18.058 0-29.755-12.445-29.755-27.992 0-15.886 12.052-27.969 30.465-27.969 18.421 0 29.747 12.083 30.102 27.969.001 15.547-11.68 27.992-30.449 27.992zm221.01 184.011h-53.822v-86.627c0-21.759-7.792-36.613-27.271-36.613-14.875 0-23.725 10.008-27.624 19.687-1.42 3.464-1.783 8.276-1.783 13.125v90.425h-53.83s.718-146.718 0-161.912h53.827v22.948c7.149-11.015 19.927-26.754 48.518-26.754 35.43 0 61.983 23.138 61.986 72.871v92.85z" fill="url(#c)"/></svg></li>
-     </a>
-       <div><!-- COPYRIGHT -->
-         <p>Copyright Amanda Galvao 2021</p>
-       </div>
-     </div>
-   </footer>
-  </body>
- </html>
+  <main>
+    <div class="section">
+      <!-- HERO SECTION -->
+      <div class="container">
+        <h1>Hi, I’m Amanda. <span> I’m a UX Designer with a background in Architecture. </span></h1>
+        <p>Passionate about design, I create intuitive and well-crafted experiences, whether indoors or digitally. </p>
+      </div>
+    </div>
+    <!-- Work/Projects -->
+    <div class="section">
+      <div class="container">
+        <h2>My Work</h2>
+        <!-- PROJECT 1 SECTION -->
+        <div>
+          <picture>
+            <source srcset="img/pluto/cover-black@1.png" media="(max-width:767px)">
+            <img src="img/pluto/cover-black@2.png" alt="My Image">
+          </picture>
+          <h3>Pluto</h3>
+          <p>An independently developed for a (mobile-first) responsive app for investing in a social environment.
+          </p>
+          <li><a href="pluto.html">View Project</a></li>
+        </div>
+
+        <!-- PROJECT 2 SECTION -->
+        <div>
+          <picture>
+            <source srcset="img/foodhood/foodhood-cover@1.png" media="(max-width:767px)">
+            <img src="img/foodhood/foodhood-cover@2.png" alt="Pluto">
+          </picture>
+          <h3>Foodhood</h3>
+          <p>A website and mobile platform for an online supermarket focused on people with busy schedules. Developed as part of a 2-week design challenge.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+
+        <!-- PROJECT 3 SECTION -->
+        <div>
+          <picture>
+            <source srcset="img/vocapp/vocapp-cover@1.png" media="(max-width:767px)">
+            <img src="img/vocapp/vocapp-cover@2.png" alt="Vocapp">
+          </picture>
+          <h3>Vocapp</h3>
+          <p>An conceptual vocabulary app with a hint of pop-art.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <!-- FOOTER TEXT AND BUTTON -->
+      <h2>Get in touch</h2>
+      <p>I would love to discuss my work and how I could help your team! Please contact me at
+        <a href="a.galvao@outlook.com">a.galvao@outlook.com</a> or give me a call on <a href="tel:+447480784872">(44) 7480784872</a>.
+      <div>
+        <!-- SOCIAL LINKS -->
+        <a href="www.linkedin.com/in/amanda-galvao-de-oliveira" target="_blank">
+          <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <linearGradient id="a">
+              <stop offset="0" stop-color="#517fa6" />
+              <stop offset="1" stop-color="#426699" />
+            </linearGradient>
+            <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="8.9756" x2="577.923" xlink:href="#a" y1="-78.99" y2="557.6892" />
+            <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-20.1191" x2="548.8283" xlink:href="#a" y1="-52.9904" y2="583.6888" />
+            <path d="m271.06 214.363v-.525c-.1.17-.247.36-.347.525z" fill="url(#b)" />
+            <path
+              d="m256 7.098c-137.465 0-248.902 111.437-248.902 248.902s111.437 248.902 248.902 248.902 248.902-111.437 248.902-248.902-111.437-248.902-248.902-248.902zm-68.545 345.704h-53.822v-161.912h53.822zm-26.901-184.008h-.363c-18.058 0-29.755-12.445-29.755-27.992 0-15.886 12.052-27.969 30.465-27.969 18.421 0 29.747 12.083 30.102 27.969.001 15.547-11.68 27.992-30.449 27.992zm221.01 184.011h-53.822v-86.627c0-21.759-7.792-36.613-27.271-36.613-14.875 0-23.725 10.008-27.624 19.687-1.42 3.464-1.783 8.276-1.783 13.125v90.425h-53.83s.718-146.718 0-161.912h53.827v22.948c7.149-11.015 19.927-26.754 48.518-26.754 35.43 0 61.983 23.138 61.986 72.871v92.85z"
+              fill="url(#c)" />
+          </svg></li>
+        </a>
+        <div>
+          <!-- COPYRIGHT -->
+          <p>Copyright Amanda Galvao 2021</p>
+        </div>
+      </div>
+  </footer>
+</body>
+
+</html>
